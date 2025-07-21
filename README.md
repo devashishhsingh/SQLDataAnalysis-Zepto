@@ -29,7 +29,7 @@ services:
     environment:
       POSTGRES_PASSWORD: [PASSWORD]
     volumes:
-      - C:/workspace/postgres-data:/var/lib/postgresql/data
+      - C:/[your_folder_name]/postgres-data:/var/lib/postgresql/data
     ports:
       - "5432:5432"
 
