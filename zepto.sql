@@ -1,5 +1,5 @@
 
-```sql
+
 -- Drop table if it exists
 DROP TABLE IF EXISTS zepto;
 
@@ -136,6 +136,6 @@ SELECT category,
 FROM zepto
 GROUP BY category
 ORDER BY total_weight DESC;
-```
+
 
 
