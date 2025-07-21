@@ -4,17 +4,17 @@ services:
   db:
     image: postgres:latest
     environment:
-      POSTGRES_PASSWORD: Newdelhi@2025
+      POSTGRES_PASSWORD: [PASSWORD]
     volumes:
-      - C:/workspace/postgres-data:/var/lib/postgresql/data
+      - C:/[yourfolder]/postgres-data:/var/lib/postgresql/data
     ports:
       - "5432:5432"
 
   pgadmin:
     image: dpage/pgadmin4:latest
     environment:
-      PGADMIN_DEFAULT_EMAIL: devs9937@gmail.com
-      PGADMIN_DEFAULT_PASSWORD: Newdelhi@2025
+      PGADMIN_DEFAULT_EMAIL: [USER_EMAIL_ADDREEE]
+      PGADMIN_DEFAULT_PASSWORD: [PASSWORD]
     ports:
       - "8080:80"
     depends_on:
