@@ -110,12 +110,17 @@ CREATE TABLE zepto_kaggle (
   * File Name: (path to the CSV file)
   * Format: `CSV`
   * Encoding: `UTF8`
+<img width="873" height="685" alt="image" src="https://github.com/user-attachments/assets/ea017179-8aa8-4e05-bb08-e6dd28ee764a" />
+
 * **Options Tab**:
 
   * Header: ✔️ (Checked, because CSV includes headers)
+<img width="877" height="678" alt="image" src="https://github.com/user-attachments/assets/ea6dc013-5fa9-4ff1-80b0-bd38a0ea4584" />
+
 * **Columns Tab**:
 
   * Exclude `sku_id` (It auto-generates)
+<img width="874" height="678" alt="image" src="https://github.com/user-attachments/assets/f9420775-a95a-41df-8064-060d77313249" />
 
 ---
 
